@@ -2,17 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* White/light base background for the app */
 body {
-  @apply bg-gray-100 text-gray-800; /* dark text for white/light background */
+  @apply bg-gray-100 text-gray-800; 
 }
 
-/* Glass card style */
 .glass-card {
   @apply bg-white/70 backdrop-blur-md border border-white/40 rounded-xl p-4 shadow-md transition transform hover:scale-[1.02] hover:shadow-xl;
 }
 
-/* Optional: placeholder text for inputs in white/gray */
 textarea::placeholder {
   @apply text-gray-500;
 }
